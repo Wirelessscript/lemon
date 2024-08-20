@@ -1,30 +1,32 @@
 function Header() {
     return (
-        <nav>
-          <div>
-          <img src={require('./images/logo.jpeg')} alt="Logo"></img>
-          </div>
-          <ul>
-            <li>
-              <a href="./Header">Home</a>
-            </li>
-            <li>
-              <a href="./About">About</a>
-            </li>
-            <li>
-              <a href="./Menu">Menu</a>
-            </li>
-            <li>
-              <a href="./Reservations">Reservations</a>
-            </li>
-            <li>
-              <a href="./Order Online">Order Online</a>
-            </li>
-            <li>
-              <a href="./Login">Login</a>
-            </li>
-          </ul>
-        </nav>
+      <>
+        <header>
+        <img src={require('./images/Logo.png')} alt="Logo" width="30%"></img>
+          <nav class="Navbar">
+            <ul>
+              <li class="link">
+                <a href="./Header">Home</a>
+              </li>
+              <li class="link">
+                <a href="./About">About</a>
+              </li >
+              <li class="link">
+                <a href="./Menu">Menu</a>
+              </li>
+              <li class="link">
+                <a href="./Reservations">Reservations</a>
+              </li>
+              <li class="link">
+                <a href="./Order Online">Order Online</a>
+              </li>
+              <li class="link">
+                <a href="./Login">Login</a>
+              </li>
+            </ul>
+          </nav>
+        </header>
+        </>
     )}
 
     export default Header;
