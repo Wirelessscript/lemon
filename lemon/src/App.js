@@ -1,10 +1,31 @@
-import './App.css';
+import './App.css'
+import Header from './Header';
+import Footer from './Footer';
+import Section from './Section';
+import Main from './Main';
+import Testimonials from './Testimonials';
 
 function App() {
-  return (
-    <div className="App">
-      <header>Home Page</header>
-    </div>
+  return(
+      <>
+      <Header/>
+      <Section/>
+      <Main/>
+      <Testimonials/>
+      <reactTextBox/>
+
+
+
+
+
+
+
+
+
+
+
+      <Footer/>
+      </>
   );
 }
 
