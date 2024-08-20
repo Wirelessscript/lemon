@@ -1,7 +1,7 @@
 import './App.css'
 import Header from './Header';
 import Footer from './Footer';
-import Section from './Section';
+import About from './About';
 import Main from './Main';
 import Testimonials from './Testimonials';
 
@@ -9,10 +9,9 @@ function App() {
   return(
       <>
       <Header/>
-      <Section/>
+      <About/>
       <Main/>
       <Testimonials/>
-      <reactTextBox/>
 
 
 

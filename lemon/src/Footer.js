@@ -1,8 +1,10 @@
 
-export default function footer() {
+function Footer() {
     return (
         <footer>
-        <img href='./' alt="Logo"></img>
+        <div>
+          <img src={require('./images/logo.jpeg')} alt="Logo"></img>
+        </div>
         <h4>Conact details:</h4>
         <h5>Aderss:</h5>
         <h5>Phone Number:</h5>
@@ -13,3 +15,5 @@ export default function footer() {
         </footer>
     )
 }
+
+export default  Footer;

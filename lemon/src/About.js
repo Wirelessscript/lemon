@@ -1,6 +1,6 @@
 
 
-export default function Section() {
+export default function About() {
     return (
         <body>
         <section>
