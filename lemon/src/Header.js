@@ -4,7 +4,7 @@ function Header() {
         <header>
         <img src={require('./images/Logo.png')} alt="Logo" width="30%"></img>
           <nav class="Navbar">
-            <ul>
+            <ul class>
               <li class="link">
                 <a href="./Header">Home</a>
               </li>

@@ -3,7 +3,7 @@ function Specials() {
 
             <>
             <header class="heading1">
-                <h1>Spesials</h1>
+                <h1>Specials</h1>
                 <button type="button" class="button">Online Menu</button>
             </header>
             <div class="card">

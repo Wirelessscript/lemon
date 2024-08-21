@@ -2,7 +2,7 @@ import './App.css'
 import Header from './Header';
 import Footer from './Footer';
 import Main from './Main';
-import Specials from './Spesials';
+import Specials from './Specials';
 import Testimonials from './Testimonials';
 
 function App() {
@@ -12,17 +12,6 @@ function App() {
       <Main/>
       <Specials/>
       <Testimonials/>
-
-
-
-
-
-
-
-
-
-
-
       <Footer/>
       </>
   );
