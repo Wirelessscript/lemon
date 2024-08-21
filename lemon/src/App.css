@@ -213,6 +213,76 @@ section {
   font-size: x-large;
 }
 
+.about {
+  display: flex;
+    height: auto;
+    width: auto;
+}
+
+.about-content {
+  width: 500px;
+  padding: 2em;
+  align-content: center;
+}
+
+.about-content h4 {
+  font-size: 40px;
+}
+
+.about-content h5 {
+  padding-bottom: 20px;
+  font-size: 30px;
+}
+
+.about-content p {
+  width: 250px;
+
+}
+
+#restaurant {
+  width: 30%;
+  height: 30%;
+  margin-top: 8em;
+  margin-bottom: 1em;
+  z-index: 1;
+  position: relative;
+  box-shadow: 10px 10px 10px rgb(0, 0, 0, 2);
+}
+
+#chefs {
+    width: 30%;
+    height: 30%;
+    margin-top: 1em;
+    margin-left: -7em;
+    box-shadow: 10px 10px 10px rgb(0, 0, 0, 2);
+}
+
+
+
 .footer {
+  list-style: none;
   border-top: 10px groove black;
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+.footer a {
+  color: black;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+  color: #F4CE14;
+  background-color: #495e57;
+  border-radius: 4px;
+}
+
+.footer .contact li {
+  font-size: 20px;
+}
+
+.footer .media li {
+  text-align: center;
+  font-size: 30px;
 }
