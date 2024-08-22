@@ -19,7 +19,7 @@ const Main = () => {
     const fetchAPI = function(date){
         let result = [];
         let random = seedRandom(date.getDate());
-        for (let i = 17; 1 <=23; i++) {
+        for (let i = 17; i <=23; i++) {
             if(random() <0.5){
                 result.push(i + ':00');
             }
@@ -52,7 +52,7 @@ const Main = () => {
         <main>
             <Routes>
                 <Route path='/' element={<Header/>}/>
-                <Route path='/booking' element={<Booking availableTimes={state} dispatch={dispatch} submitForm={submitForm}/>}/>
+                <Route path='/booking' element={<Booking availableTimes={state} dispatch={dispatch} SubmitForm={submitForm}/>}/>
                 <Route path='/confirmed' element={<ConfirmedBooking/>}/>
             </Routes>
         </main>
