@@ -86,6 +86,47 @@ nav ul li a:hover {
   .navbar {
     background: #fff;
   }
+
+  nav ul li a {
+    color: #fff
+  }
+
+  .bar {
+    background: #333333;
+  }
+
+  .banner-img{
+    display: none;
+  }
+
+  form, .confirm {
+    padding: 10px 8%;
+  }
+
+  .header section, .menu-contaner{
+    padding:10px 8%;
+  }
+
+  .menu-contaner {
+    margin: 20px 0;
+  }
+
+  .menu-header {
+    justify-content: flex-start;
+  }
+
+  .menu-items {
+    width: 100%;
+  }
+
+  footer section {
+    padding: 10px 8%;
+    flex-direction: column;
+  }
+
+  .company-info p {
+    width: 100%;
+  }
 }
 
 
@@ -153,6 +194,84 @@ button {
   border-radius: 4px;
 }
 
+.cards {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem 1rem;
+}
+
 .confirm span {
   color: blue;
+}
+
+.menu-contaner {
+  margin: 110px auto;
+  padding: 10px 13%;
+}
+
+.menu-items {
+  width: 350px;
+  background: #a9c8be;
+}
+
+.menu-contaner h2 {
+  color: #000;
+}
+
+.menu-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 70px
+}
+
+.menu-header h2 {
+  color: #000;
+}
+
+.menu-content {
+  padding: 5px 15px;
+}
+
+.menu-content .heading {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menubtn {
+  margin: auto;
+}
+
+.orderbtn {
+  padding: 5px 12px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+footer section {
+  justify-content: space-evenly;
+  display: flex;
+  padding: 5px 12px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+footer p {
+  width: 500px;
+}
+
+.recipe-img {
+  width: 350px;
+  height: 300px;
+}
+
+
+.hidden {
+  display: none;
 }
